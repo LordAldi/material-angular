@@ -23,9 +23,10 @@ import { MatSortModule } from '@angular/material/sort';
 import { TypographyComponent } from './components/typography/typography.component';
 import { ButtonComponent } from './components/button/button.component';
 import { IconComponent } from './components/icon/icon.component';
+import { ProgressComponent } from './components/progress/progress.component';
 
 @NgModule({
-  declarations: [AppComponent, NavbarComponent, DashboardComponent, TableTestComponent, TypographyComponent, ButtonComponent, IconComponent],
+  declarations: [AppComponent, NavbarComponent, DashboardComponent, TableTestComponent, TypographyComponent, ButtonComponent, IconComponent, ProgressComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
