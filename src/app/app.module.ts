@@ -21,9 +21,10 @@ import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
 import { TypographyComponent } from './components/typography/typography.component';
+import { ButtonComponent } from './components/button/button.component';
 
 @NgModule({
-  declarations: [AppComponent, NavbarComponent, DashboardComponent, TableTestComponent, TypographyComponent],
+  declarations: [AppComponent, NavbarComponent, DashboardComponent, TableTestComponent, TypographyComponent, ButtonComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
