@@ -20,9 +20,10 @@ import { TableTestComponent } from './table-test/table-test.component';
 import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
+import { TypographyComponent } from './components/typography/typography.component';
 
 @NgModule({
-  declarations: [AppComponent, NavbarComponent, DashboardComponent, TableTestComponent],
+  declarations: [AppComponent, NavbarComponent, DashboardComponent, TableTestComponent, TypographyComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
