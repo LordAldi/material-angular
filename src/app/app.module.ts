@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -24,13 +25,29 @@ import { TypographyComponent } from './components/typography/typography.componen
 import { ButtonComponent } from './components/button/button.component';
 import { IconComponent } from './components/icon/icon.component';
 import { ProgressComponent } from './components/progress/progress.component';
+import { ToolbarComponent } from './components/toolbar/toolbar.component';
+import { SidenavComponent } from './components/sidenav/sidenav.component';
+import { MenuComponent } from './components/menu/menu.component';
 
 @NgModule({
-  declarations: [AppComponent, NavbarComponent, DashboardComponent, TableTestComponent, TypographyComponent, ButtonComponent, IconComponent, ProgressComponent],
+  declarations: [
+    AppComponent,
+    NavbarComponent,
+    DashboardComponent,
+    TableTestComponent,
+    TypographyComponent,
+    ButtonComponent,
+    IconComponent,
+    ProgressComponent,
+    ToolbarComponent,
+    SidenavComponent,
+    MenuComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    FormsModule,
     MaterialModule,
     LayoutModule,
     MatToolbarModule,
